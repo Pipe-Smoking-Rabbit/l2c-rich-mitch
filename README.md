@@ -47,7 +47,9 @@ Next up is making an API to serve up your lesson data. Write an express server t
 
 Now that your lesson data is available to the world it's time to write a front end for it. This should be done in React and you'll need to design some components that render your lesson in a readable manner.
 
-The UI of these components is essential to the success of the app so we would like you to build your components using [Storybook](https://storybook.js.org/).
+The UI of these components is essential to the success of the app so we would like you to build your components using [Storybook](https://storybook.js.org/). Storybook is a library developers use to be able to build up their UI components in isolation.
+
+Read [here](./atomic-design-storybook.md) for some more information about Storybook and Atomic Design.
 
 Once you are happy with their design then use them in an App to see your lesson in all it's glory.
 
