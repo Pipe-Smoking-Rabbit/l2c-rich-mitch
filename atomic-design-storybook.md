@@ -3,7 +3,7 @@
 ### Learning Objectives
 
 - Understand what is meant by FE design systems
-- Learning about the Atomic Design system
+- Learn about the Atomic Design system
 - Understand the impact of tools such as Storybook within design systems
 
 ## Design Systems
@@ -22,13 +22,13 @@ This could be problematic for a number of reasons but let's hone in on the big o
 
 Enter a design system. A design system is an `infrastructure` that focusses on UI patterns to enable FE developers consider the composition of an app, how accessible it may be and how components can be reused. It has no care for data fetching or complicated configuration or secrets. The focus is on `isolating UI components`, building components that can be hydrated via props or context for the purposed of development and then slotted into a main application once ready. This keeps development encapsulated and can protect against too many requests being made.
 
-However, design systems can be difficult to implement. There can be confusing terminology and ideas about how to design the system and there may not be the appropriate tools available. A solution we'll take a look at is the Atomic Design implemented via Storybook.
+However, design systems can be difficult to implement. There can be confusing terminology and ideas about how to design the system and there may not be the appropriate tools available. A solution we'll take a look at is the Atomic Design system implemented via Storybook.
 
 ## Atomic Design
 
 So, what's the point of `Atomic Design` (other than to lead into an Atomic by Blondie sing-a-long!)?
 
-Atomic Design is a design is a design system that allows us to describe the different kinds of UI components in terms of complexity.
+Atomic Design is a design system that allows us to describe the different kinds of UI components in terms of complexity.
 
 Let's take the following form and break it down in to components following Atomic Design.
 
@@ -36,17 +36,17 @@ Let's take the following form and break it down in to components following Atomi
 
 1. `Atoms`
 
-As you can probably guess, atoms comprise of the smallest components with the least complex behaviour. Ideally, data from third party sources would go nowhere near our atoms.
+As you can probably guess, atoms comprise of the smallest components with the least complex behaviour. Ideally, requests to third party sources would live nowhere near our atoms.
 
 Atoms should be `small reusable components`. Below are the atom components from this form highlighted in green.
 
-These are all individual components of a radio button, checkbox and inputs (all with corresponding labels/text) and a call to action button. All of which can consume hard coded data or that passed via props or context. All have the ability to be reusable across the whole application.
+These are all individual components of a radio button, checkbox and inputs (each with corresponding labels/text) and a call to action button. All of which can consume hard coded data or that passed via props or context. All have the ability to be reusable across the whole application.
 
 ![Atoms](./assets/atoms.png)
 
 2. Molecules
 
-Molecules are a sensible `collections of atoms`. Often this can be seen where we use multiple of the same atom like below highlighted in red.These groupings enable dynamic sections of the larger form.
+Molecules are a sensible `collections of atoms`. Often this can be seen where we use multiple of the same atom like below highlighted in red. These groupings enable dynamic sections of the larger form.
 
 ![Molecules](./assets/molecules.png)
 
@@ -56,7 +56,7 @@ Which brings us to ....
 
 3. Organisms
 
-Organisms embody a piece of user functionality. For example the whole of the feedback form, the ability to select options and write text but also, crucially, leave the feedback too. `Organisms can comprise of both atoms and molecules`, dependent on how the components can be grouped.
+Organisms embody a piece of user functionality. For example the whole of the feedback form, the ability to select options and write text but also, crucially, leave the feedback too. `Organisms can comprise of both atoms and molecules`, dependent on how the components could be grouped.
 
 ![Organisms](./assets//organisms.png)
 
