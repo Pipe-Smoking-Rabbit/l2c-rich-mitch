@@ -10,17 +10,9 @@
 
 What is a `design system`?
 
-Have you ever designed a button on your website?
+A design system is an `infrastructure` that focusses on UI patterns to enable FE developers consider the composition of an app, how accessible it may be and how components can be reused. `Reusable components` adhere to DRY principles, making it easier for developers to debug and eventually scale. Most FE frameworks (looking specifically at you React) are designed with reusable components in mind and a design system goes some of the way to help achieve that.
 
-Does it look nearly the same as other buttons?
-
-But have slightly different functionality?
-
-How many of these buttons could be written across the scope of a whole application?
-
-This could be problematic for a number of reasons but let's hone in on the big one. This code is not `DRY` and having a number of nearly identical buttons with similar behaviour can be difficult to debug and even more difficult to scale. Most FE frameworks (looking specifically at you React) are designed with `reusable components` in mind.
-
-Enter a design system. A design system is an `infrastructure` that focusses on UI patterns to enable FE developers consider the composition of an app, how accessible it may be and how components can be reused. It has no care for data fetching or complicated configuration or secrets. The focus is on `isolating UI components`, building components that can be hydrated via props or context for the purposed of development and then slotted into a main application once ready. This keeps development encapsulated and can protect against too many requests being made.
+Design systems have no care for data fetching or complicated configuration or secrets. The focus is on `isolating UI components`, building components that can be hydrated via props or context for the purposed of development and then slotted into a main application once ready. This keeps development encapsulated and can protect against too many requests being made.
 
 However, design systems can be difficult to implement. There can be confusing terminology and ideas about how to design the system and there may not be the appropriate tools available. A solution we'll take a look at is the Atomic Design system implemented via Storybook.
 
