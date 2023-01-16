@@ -1,0 +1,378 @@
+[
+  {
+    "type": "heading",
+    "raw": "# For Loops!!!\n",
+    "depth": 1,
+    "text": "For Loops!!!",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "For Loops!!!",
+        "text": "For Loops!!!"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "[mdn documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)",
+    "text": "[mdn documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[mdn documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for",
+        "title": null,
+        "text": "mdn documentation here",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "mdn documentation here",
+            "text": "mdn documentation here"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "A for loop has 3 parts:\n",
+    "text": "A for loop has 3 parts:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "A for loop has 3 parts:",
+        "text": "A for loop has 3 parts:"
+      }
+    ]
+  },
+  {
+    "type": "list",
+    "raw": "+ **Start** - how to begin\n+ **Stop** - where to end\n+ **Step** - how to increment",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "+ **Start** - how to begin\n",
+        "task": false,
+        "loose": false,
+        "text": "**Start** - how to begin",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "**Start** - how to begin",
+            "text": "**Start** - how to begin",
+            "tokens": [
+              {
+                "type": "strong",
+                "raw": "**Start**",
+                "text": "Start",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Start",
+                    "text": "Start"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "raw": " - how to begin",
+                "text": " - how to begin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "+ **Stop** - where to end\n",
+        "task": false,
+        "loose": false,
+        "text": "**Stop** - where to end",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "**Stop** - where to end",
+            "text": "**Stop** - where to end",
+            "tokens": [
+              {
+                "type": "strong",
+                "raw": "**Stop**",
+                "text": "Stop",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Stop",
+                    "text": "Stop"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "raw": " - where to end",
+                "text": " - where to end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "raw": "+ **Step** - how to increment",
+        "task": false,
+        "loose": false,
+        "text": "**Step** - how to increment",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "**Step** - how to increment",
+            "text": "**Step** - how to increment",
+            "tokens": [
+              {
+                "type": "strong",
+                "raw": "**Step**",
+                "text": "Step",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Step",
+                    "text": "Step"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "raw": " - how to increment",
+                "text": " - how to increment"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "```\nfor (let i = 0; i < 4; i++) {\n    console.log(i)\n}\n```",
+    "lang": "",
+    "text": "for (let i = 0; i < 4; i++) {\n    console.log(i)\n}"
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "blockquote",
+    "raw": ">*Start* - Instantiates the value of `i` to begin the process\n> \n>>`let i = 0`\n>\n>*Stop* - lets the for loop know at what value of `i` to end the loop\n>\n>>`i < 4`\n>\n>*Step* - how much to increase the value of `i` for each iteration\n>\n>>`i++`\n\n",
+    "tokens": [
+      {
+        "type": "paragraph",
+        "raw": "*Start* - Instantiates the value of `i` to begin the process",
+        "text": "*Start* - Instantiates the value of `i` to begin the process",
+        "tokens": [
+          {
+            "type": "em",
+            "raw": "*Start*",
+            "text": "Start",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Start",
+                "text": "Start"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "raw": " - Instantiates the value of ",
+            "text": " - Instantiates the value of "
+          },
+          {
+            "type": "codespan",
+            "raw": "`i`",
+            "text": "i"
+          },
+          {
+            "type": "text",
+            "raw": " to begin the process",
+            "text": " to begin the process"
+          }
+        ]
+      },
+      {
+        "type": "space",
+        "raw": "\n\n"
+      },
+      {
+        "type": "blockquote",
+        "raw": ">`let i = 0`\n\n",
+        "tokens": [
+          {
+            "type": "paragraph",
+            "raw": "`let i = 0`\n",
+            "text": "`let i = 0`",
+            "tokens": [
+              {
+                "type": "codespan",
+                "raw": "`let i = 0`",
+                "text": "let i = 0"
+              }
+            ]
+          }
+        ],
+        "text": "`let i = 0`\n"
+      },
+      {
+        "type": "paragraph",
+        "raw": "*Stop* - lets the for loop know at what value of `i` to end the loop",
+        "text": "*Stop* - lets the for loop know at what value of `i` to end the loop",
+        "tokens": [
+          {
+            "type": "em",
+            "raw": "*Stop*",
+            "text": "Stop",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Stop",
+                "text": "Stop"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "raw": " - lets the for loop know at what value of ",
+            "text": " - lets the for loop know at what value of "
+          },
+          {
+            "type": "codespan",
+            "raw": "`i`",
+            "text": "i"
+          },
+          {
+            "type": "text",
+            "raw": " to end the loop",
+            "text": " to end the loop"
+          }
+        ]
+      },
+      {
+        "type": "space",
+        "raw": "\n\n"
+      },
+      {
+        "type": "blockquote",
+        "raw": ">`i < 4`\n\n",
+        "tokens": [
+          {
+            "type": "paragraph",
+            "raw": "`i < 4`\n",
+            "text": "`i < 4`",
+            "tokens": [
+              {
+                "type": "codespan",
+                "raw": "`i < 4`",
+                "text": "i &lt; 4"
+              }
+            ]
+          }
+        ],
+        "text": "`i < 4`\n"
+      },
+      {
+        "type": "paragraph",
+        "raw": "*Step* - how much to increase the value of `i` for each iteration",
+        "text": "*Step* - how much to increase the value of `i` for each iteration",
+        "tokens": [
+          {
+            "type": "em",
+            "raw": "*Step*",
+            "text": "Step",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Step",
+                "text": "Step"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "raw": " - how much to increase the value of ",
+            "text": " - how much to increase the value of "
+          },
+          {
+            "type": "codespan",
+            "raw": "`i`",
+            "text": "i"
+          },
+          {
+            "type": "text",
+            "raw": " for each iteration",
+            "text": " for each iteration"
+          }
+        ]
+      },
+      {
+        "type": "space",
+        "raw": "\n\n"
+      },
+      {
+        "type": "blockquote",
+        "raw": ">`i++`\n",
+        "tokens": [
+          {
+            "type": "paragraph",
+            "raw": "`i++`\n",
+            "text": "`i++`",
+            "tokens": [
+              {
+                "type": "codespan",
+                "raw": "`i++`",
+                "text": "i++"
+              }
+            ]
+          }
+        ],
+        "text": "`i++`\n"
+      }
+    ],
+    "text": "*Start* - Instantiates the value of `i` to begin the process\n\n>`let i = 0`\n\n*Stop* - lets the for loop know at what value of `i` to end the loop\n\n>`i < 4`\n\n*Step* - how much to increase the value of `i` for each iteration\n\n>`i++`\n"
+  },
+  {
+    "type": "hr",
+    "raw": "***\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "The above example will output to the terminal:",
+    "text": "The above example will output to the terminal:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "The above example will output to the terminal:",
+        "text": "The above example will output to the terminal:"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "code",
+    "raw": "```\n0\n1\n2\n3\n```",
+    "lang": "",
+    "text": "0\n1\n2\n3"
+  }
+]
