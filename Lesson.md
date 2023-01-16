@@ -14,7 +14,7 @@ for (let i = 0; i < 4; i++) {
 
 
 >*Start* - Instantiates the value of `i` to begin the process
-> 
+>
 >>`let i = 0`
 >
 >*Stop* - lets the for loop know at what value of `i` to end the loop

@@ -4,9 +4,11 @@
   "description": "Welcome to Project Phase 🎉",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "setup-dbs": "psql -f ./db/setup-dbs.psql",
-    "seed": "node ./db/seed/seed.js"
+    "test": "jest",
+    "setup-dbs": "psql -f ./db/setup-dbs.sql",
+    "seed": "node ./db/seed/run-seed.js",
+    "scrap": "psql -f scrap.sql > output.txt",
+    "start": "node listen.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,14 @@
   "homepage": "https://github.com/Pipe-Smoking-Rabbit/l2c-rich-mitch#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "fs.promises": "^0.1.2",
     "marked": "^4.2.12",
     "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
   }
 }

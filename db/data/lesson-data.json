@@ -173,7 +173,7 @@
   },
   {
     "type": "blockquote",
-    "raw": ">*Start* - Instantiates the value of `i` to begin the process\n> \n>>`let i = 0`\n>\n>*Stop* - lets the for loop know at what value of `i` to end the loop\n>\n>>`i < 4`\n>\n>*Step* - how much to increase the value of `i` for each iteration\n>\n>>`i++`\n\n",
+    "raw": ">*Start* - Instantiates the value of `i` to begin the process\n>\n>>`let i = 0`\n>\n>*Stop* - lets the for loop know at what value of `i` to end the loop\n>\n>>`i < 4`\n>\n>*Step* - how much to increase the value of `i` for each iteration\n>\n>>`i++`\n\n",
     "tokens": [
       {
         "type": "paragraph",
