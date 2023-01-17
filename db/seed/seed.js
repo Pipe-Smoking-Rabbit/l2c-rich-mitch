@@ -1,4 +1,3 @@
-const lessonData = require("../data/lesson-data.json");
 const db = require("../connection");
 
 async function seed(data) {
@@ -9,7 +8,7 @@ async function seed(data) {
         CREATE TABLE lessons(
         lesson_id SERIAL PRIMARY KEY,
         lesson_name VARCHAR NOT NULL,
-        lesson_content VARCHAR
+        lesson_content json
         );`)
     await db.query(`
         INSERT INTO lessons
