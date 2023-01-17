@@ -2,13 +2,14 @@
   "name": "team-proj-pass-the-parsed-cell",
   "version": "1.0.0",
   "description": "Welcome to Project Phase 🎉",
-  "main": "index.js",
+  "main": "listen.js",
   "scripts": {
     "test": "jest",
     "setup-dbs": "psql -f ./db/setup-dbs.sql",
     "seed": "node ./db/seed/run-seed.js",
     "scrap": "psql -f scrap.sql > output.txt",
-    "start": "node listen.js"
+    "start": "node listen.js",
+    "seed-prod": "NODE_ENV=production npm run seed"
   },
   "repository": {
     "type": "git",
